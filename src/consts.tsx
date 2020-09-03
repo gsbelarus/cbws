@@ -1,4 +1,4 @@
-import { ListItems, LName } from "./types";
+import { ListItems, LName, ListSocials } from "./types";
 
 type FormatFunc = (...args: any[]) => string;
 
@@ -32,6 +32,13 @@ export function getLName(
 		""
 	);
 }
+
+export const socials: ListSocials = [
+	{ id: 1, href: "http://gsbelarus.com/", className: "icon telegram" },
+	{ id: 2, href: "http://gsbelarus.com/", className: "icon viber" },
+	{ id: 3, href: "http://gsbelarus.com/", className: "icon youtube" },
+	{ id: 4, href: "http://gsbelarus.com/", className: "icon fb" }
+];
 
 export const mainMenu: ListItems = [
 	{
@@ -119,11 +126,16 @@ export const stringResources = {
 		ru: `Нажимая эту кнопку, я\nдаю согласие на\nобработку персональных данных`,
 		be: `Націскаючы гэтую кнопку, я\nдаю згоду на\nапрацоўку персанальных дадзеных`,
 	},
-orderMakeRequest: {
+	orderMakeRequest: {
 		en: "Make a request",
 		ru: "Оформить заявку",
-		be: "Аформіць заяўку"
-	}
+		be: "Аформіць заяўку",
+	},
+	socials: {
+		en: "We are in social networks",
+		ru: "Мы в соцсетях",
+		be: "Мы ў сацсетках",
+	},
 };
 
 export const getLocString = (r: ILocString, lang: Language, ...args: any[]) => {

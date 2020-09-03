@@ -1,7 +1,5 @@
 import * as React from "react";
-
 import { Language, languages } from "../consts";
-import { useState } from "react";
 import classNames from "classnames";
 
 export type LangSelectorProps = {
@@ -12,7 +10,7 @@ export type LangSelectorProps = {
 export const LangSelector = (props: LangSelectorProps): JSX.Element => {
   const { selectedLang, onSetLanguage } = props;
 	return (
-		<div className="lang-selector">
+		<div className="lang_selector">
 			{languages.map((l, idx) => (
 				<span
 					key={idx}

@@ -26,7 +26,7 @@
 	}
 }
 
-.bot-callus__button {
+.bot-callus_button {
 	width: 100%;
 	padding: 55px 0;
 }
@@ -69,9 +69,8 @@ a {
 	line-height: 20px;
 }
 .menu {
-	/* color: white; */
 	float: left;
-	width: 90%;
+	width: 100%;
 }
 
 .content {
@@ -118,7 +117,6 @@ a {
 .bot-content {
 	max-width: 1024px;
 	margin: auto;
-	/* padding: 0 20px 20px 20px; */
 }
 
 .column-header {
@@ -142,7 +140,7 @@ a {
 	line-height: normal;
 }
 
-.bot-why__radio {
+.bot-why_radio {
 	display: none;
 }
 
@@ -173,7 +171,7 @@ ul {
 
 .menu nav li {
 	float: left;
-	padding: 0 13px;
+	padding-right: 13px;
 	font-size: 22px;
 	line-height: 24px;
 }
@@ -192,44 +190,43 @@ li {
 
 .bot-about,
 .bot-btn,
-.bot-callus__button,
-.bot-can__example,
-.bot-cant__text,
-.bot-top__main {
+.bot-callus_button,
+.bot-can_example,
+.bot-cant_text,
+.bot-top_main {
 	text-align: center;
 }
 
-.lang-selector {
+.lang_selector {
 	font-size: 18px;
-	color: black;
-	z-index: 3;
 	float: right;
-	width: 10%;
 }
 
-.lang-selector span {
+.lang_selector span {
 	margin-right: 6px;
 	padding-right: 6px;
 	border-right: 1px gray solid;
 	cursor: pointer;
 	color: gray;
+	opacity: 0.7;
 }
 
-.lang-selector span:last-child {
+.lang_selector span:last-child {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
 
-.lang-selector span.Selected,
+.lang_selector span.Selected,
 span:hover {
 	text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.7);
 	color: black;
+	opacity: 1;
 }
 .phone {
 	text-align: right;
 	padding-right: 40px;
-	width: 100%;
+	width: 300px;
 }
 
 .socials {
@@ -255,25 +252,25 @@ span:hover {
 	height: 32px;
 }
 
-.socials .icon.icon-telegram {
+.socials .icon.telegram {
 	background-image: url(img/icons/telegram.svg);
 }
 
-.socials .icon.icon-viber {
+.socials .icon.viber {
 	background-image: url(img/icons/viber.svg);
 }
 
-.socials .icon.icon-youtube {
+.socials .icon.youtube {
 	background-image: url(img/icons/youtube.png);
 }
 
-.socials .icon.icon-fb {
+.socials .icon.fb {
 	background-image: url(img/icons/fb.png);
 }
 
 footer {
 	height: 100px;
-	margin-top: 40px;
+	padding-top: 40px;
 	font-size: 14px;
 }
 
@@ -317,12 +314,12 @@ footer {
 	transform: rotate(-45deg);
 }
 
-.popup__wrp.show {
+.popup_wrp.show {
 	display: block;
 	overflow: auto;
 }
 
-.popup__content {
+.popup_content {
 	background-color: #fff;
 	padding: 30px 70px 40px;
 	position: absolute;
@@ -338,7 +335,7 @@ footer {
 	transform: translate(-50%, -50%);
 }
 
-.popup__wrp {
+.popup_wrp {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -360,7 +357,7 @@ footer {
 	transition: opacity 0.5s ease;
 }
 
-.popup__text {
+.popup_text {
 	margin: 10px 0 19px;
 	font-size: 22px;
 	line-height: 25px;
@@ -381,22 +378,22 @@ form .firstname {
 	display: none;
 }
 
-.popup__input-wrp {
+.input-wrp {
 	position: relative;
 	margin-bottom: 17px;
 }
 
-.popup__input-wrp input {
+.input-wrp input {
 	margin-bottom: 0;
 }
 
-input.popup__phone {
+input.popup_phone {
 	border: 1px solid #ccc;
 }
 
-.popup__textarea,
-input.popup__mail,
-input.popup__phone {
+.popup_textarea,
+input.popup_mail,
+input.popup_phone {
 	background-color: #fff;
 	padding: 9px 13px;
 	box-sizing: border-box;
@@ -405,7 +402,7 @@ input.popup__phone {
 	font-size: 18px;
 }
 
-.popup__textarea {
+.popup_textarea {
 	border: 1px solid #ccc;
 	max-width: 100%;
 	margin-bottom: 0;
@@ -428,12 +425,12 @@ textarea {
 	color: #666;
 }
 
-.popup__textarea:focus {
+.popup_textarea:focus {
 	outline: 0;
 	border-color: #525659;
 }
 
-input.popup__phone:focus {
+input.popup_phone:focus {
 	outline: 0;
 	border-color: #525659;
 }
@@ -442,14 +439,14 @@ input[type="email"]:focus {
 	background: #fff;
 }
 
-.popup__privacy-text {
+.popup_privacy-text {
 	font-size: 12px;
 	text-align: center;
 	color: #666;
 	padding-top: 10px;
 }
 
-.popup__submit {
+.popup_submit {
 	color: black;
 	padding: 0 15px;
 	width: 100%;
@@ -464,13 +461,30 @@ input[type="email"]:focus {
 	transition: all linear 0.1s;
 }
 
-.popup__title {
+.popup_title {
 	margin: 0 0 11px;
 	font-size: 32px;
 	text-align: center;
 	font-weight: bolder;
 }
 
-.orderMakeRequest .btn {
-  white-space: nowrap;
+.order button {
+	white-space: nowrap;
+	display: inline-block;
+	height: 36px;
+	padding: 8px;
+	line-height: 16px;
+	font-size: 16px;
+	border: 1px solid rgb(138, 136, 134);
+	border-radius: 2px;
+	outline: 0;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: white;
+	color: rgb(50, 49, 48);
+	user-select: none;
+}
+
+.order {
+	padding-top: 250px;
 }

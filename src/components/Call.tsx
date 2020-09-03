@@ -4,7 +4,7 @@ export const Call = () => {
 	return (
 		<div className="bot-callus">
 			<div className="bot-content">
-				<div className="bot-header bot-callus__header">
+				<div className="bot-header bot-callus_header">
 					Нашли среди наших предложений
 					<br />
 					то, что вам нужно?
@@ -17,7 +17,7 @@ export const Call = () => {
 					<br />
 					для решения ваших бизнес-задач.
 				</div>
-				<div className="bot-callus__button">
+				<div className="bot-callus_button">
 					<a href="#" className="btn btn-pink popup-show">
 						Свяжитесь с нами
 					</a>

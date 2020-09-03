@@ -6,6 +6,14 @@ export interface ListItem {
 
 export type ListItems = ListItem[];
 
+export interface ListSocial {
+  id: number,
+  href: string;
+  className: string;
+}
+
+export type ListSocials = ListSocial[];
+
 export interface TName {
   name: string;
   fullName?: string;

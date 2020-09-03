@@ -7,10 +7,10 @@ export const BotCant = () => {
 	return (
 		<div className="bot-cant">
 			<div className="bot-content">
-				<div className="bot-header bot-cant__header">
+				<div className="bot-header bot-cant_header">
 					Что чат-боты пока не умеют?
 				</div>
-				<div className="bot-description bot-cant__description">
+				<div className="bot-description bot-cant_description">
 					В работе чат-ботов есть ограничения, но мы знаем, как их обойти!
 				</div>
 				<div
@@ -20,11 +20,11 @@ export const BotCant = () => {
 					<div className="owl-stage-outer">
 						<div className="owl-stage">
 							<div className="owl-item cloned" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Паттерны
 											<br />
 											взаимодействия
@@ -33,11 +33,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item cloned" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Платежи внутри
 											<br />
 											мессенджеров
@@ -46,11 +46,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item cloned active" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Понимание
 											<br />
 											естественного языка
@@ -59,11 +59,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item active center" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Паттерны
 											<br />
 											взаимодействия
@@ -72,11 +72,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item active" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Платежи внутри
 											<br />
 											мессенджеров
@@ -85,11 +85,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item active" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/>
-<img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/>
+<img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Понимание
 											<br />
 											естественного языка
@@ -98,11 +98,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item cloned" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/> */}
-										{/* <img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/interactive-bot.jpg" alt=""/> */}
+										{/* <img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/interactive-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Паттерны
 											<br />
 											взаимодействия
@@ -111,11 +111,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item cloned" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/> */}
-										{/* <img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/money-bot.jpg" alt=""/> */}
+										{/* <img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/money-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Платежи внутри
 											<br />
 											мессенджеров
@@ -124,11 +124,11 @@ export const BotCant = () => {
 								</div>
 							</div>
 							<div className="owl-item cloned" style={divStyle}>
-								<div className="bot-cant__action">
-									<div className="bot-cant__image">
-										{/* <img className="bot-cant__inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/> */}
-										{/* <img className="bot-cant__active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
-										<div className="bot-cant__text">
+								<div className="bot-cant_action">
+									<div className="bot-cant_image">
+										{/* <img className="bot-cant_inactive-image" src="/assets/741b82f2/img/bot/language-bot.jpg" alt=""/> */}
+										{/* <img className="bot-cant_active-image" src="/assets/741b82f2/img/bot/language-bot.gif" alt=""/> */}
+										<div className="bot-cant_text">
 											Понимание
 											<br />
 											естественного языка
@@ -140,8 +140,8 @@ export const BotCant = () => {
 					</div>
 					<div className="owl-controls">
 						<div className="owl-nav">
-							<div className="bot-nav__item bot-nav__left"></div>
-							<div className="bot-nav__item bot-nav__right"></div>
+							<div className="bot-nav_item bot-nav_left"></div>
+							<div className="bot-nav_item bot-nav_right"></div>
 						</div>
 						<div className="bot-dots owl-dots">
 							<div className="owl-dot active">

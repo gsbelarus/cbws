@@ -4,19 +4,19 @@ export const BotTypes = () => {
 	return (
     		<div className="bot-cards">
 				<div className="card-item item_left">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/online-shop-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">Бот для интернет-магазина</div>
+							<div className="card-item_text">Бот для интернет-магазина</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">Бот для интернет-магазина</div>
+							<div className="card-item_header">Бот для интернет-магазина</div>
 							<div className="list-item">
 								информирует о&nbsp;товарах и сопутствующих услугах
 								из&nbsp;каталога,
@@ -33,21 +33,21 @@ export const BotTypes = () => {
 					</div>
 				</div>
 				<div className="card-item item_right">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/cooking-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">
+							<div className="card-item_text">
 								Бот для предприятий общественного питания
 							</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">
+							<div className="card-item_header">
 								Бот для предприятий общественного питания
 							</div>
 							<div className="list-item">
@@ -67,19 +67,19 @@ export const BotTypes = () => {
 					</div>
 				</div>
 				<div className="card-item item_left">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/service-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">Бот для сферы услуг</div>
+							<div className="card-item_text">Бот для сферы услуг</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">Бот для сферы услуг</div>
+							<div className="card-item_header">Бот для сферы услуг</div>
 							<div className="list-item">
 								осуществляет онлайн-запись на&nbsp;услуги,
 							</div>
@@ -97,19 +97,19 @@ export const BotTypes = () => {
 					</div>
 				</div>
 				<div className="card-item item_right">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/internet-bank-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">Бот для интернет-банка</div>
+							<div className="card-item_text">Бот для интернет-банка</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">Бот для интернет-банка</div>
+							<div className="card-item_header">Бот для интернет-банка</div>
 							<div className="list-item">
 								предоставляет финансовые отчеты&nbsp;— количество денег
 								на&nbsp;счету, проведенные операции,
@@ -128,21 +128,21 @@ export const BotTypes = () => {
 					</div>
 				</div>
 				<div className="card-item item_left">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/conference-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">
+							<div className="card-item_text">
 								Бот для проведения конференций
 							</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">
+							<div className="card-item_header">
 								Бот для проведения конференций
 							</div>
 							<div className="list-item">
@@ -164,21 +164,21 @@ export const BotTypes = () => {
 					</div>
 				</div>
 				<div className="card-item item_right">
-					<div className="card-item__front item__front">
+					<div className="card-item_front item_front">
 						<div className="container">
 							<img
-								className="card-item__img"
+								className="card-item_img"
 								src="/assets/741b82f2/img/bot/education-bot.png"
 								alt=""
 							/>
-							<div className="card-item__text">
+							<div className="card-item_text">
 								Бот для внутреннего обучения
 							</div>
 						</div>
 					</div>
-					<div className="card-item__back item__back">
+					<div className="card-item_back item_back">
 						<div className="container">
-							<div className="card-item__header">
+							<div className="card-item_header">
 								Бот для внутреннего обучения
 							</div>
 							<div className="list-item">
