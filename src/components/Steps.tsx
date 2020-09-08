@@ -1,5 +1,9 @@
 import React from "react";
-import { divStyle2 } from "../App";
+
+export const divStyle2 = {
+	width: "1024px",
+	marginRight: "0px",
+};
 
 export const Steps = () => {
 	return (

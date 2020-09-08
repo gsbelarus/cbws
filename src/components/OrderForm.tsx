@@ -1,11 +1,15 @@
 import React from "react";
-import { styleDisplayBlock } from "../App";
 import { stringResources, getLocString, Language } from "../consts";
 
 interface IFormProps {
 	selectedLang: Language;
 	onClose: () => void;
 }
+
+export const styleDisplayBlock = {
+	display: "block",
+};
+
 
 export const OrderForm = (props: IFormProps): JSX.Element => {
 	const { selectedLang, onClose } = props;

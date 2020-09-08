@@ -140,10 +140,6 @@ a {
 	line-height: normal;
 }
 
-.bot-why_radio {
-	display: none;
-}
-
 .step-description {
 	/* font-family: proximanova, sans-serif; */
 	font-weight: 400;
@@ -178,10 +174,6 @@ ul {
 
 .menu nav .active {
 	color: #aa050f;
-}
-
-.section-top {
-	height: 400px;
 }
 
 li {
@@ -266,6 +258,46 @@ span:hover {
 
 .socials .icon.fb {
 	background-image: url(img/icons/fb.png);
+}
+
+.clients {
+	margin-top: 10px;
+}
+
+.client {
+	display: inline-block;
+}
+
+.client:first-child {
+	margin-left: 0;
+}
+
+.client {
+	margin-left: 0;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	width: 102px;
+	height: 102px;
+}
+
+.bot-clients ul li {
+	opacity: 0.8;
+	transition: 0.25s;
+	filter: grayscale(100%);
+}
+
+.client.client1 {
+	background-image: url(img/clients/bmkk.png);
+}
+
+.client.client2 {
+	background-image: url(img/clients/ganna.svg);
+}
+
+.client.client3 {
+	background-image: url(img/clients/ganna.svg);
 }
 
 footer {

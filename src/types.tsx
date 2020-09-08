@@ -6,13 +6,13 @@ export interface ListItem {
 
 export type ListItems = ListItem[];
 
-export interface ListSocial {
+export interface IRef {
   id: number,
   href: string;
   className: string;
 }
 
-export type ListSocials = ListSocial[];
+export type ListRefs = IRef[];
 
 export interface TName {
   name: string;

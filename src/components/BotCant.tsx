@@ -1,7 +1,14 @@
 import React from "react";
-import { divStyle, divStyle2, styleDisplayNone } from "../App";
+import { divStyle2 } from "./Steps";
 
+export const divStyle = {
+	width: "341.333px",
+	marginRight: "0px",
+};
 
+export const styleDisplayNone = {
+	display: "none",
+};
 
 export const BotCant = () => {
 	return (

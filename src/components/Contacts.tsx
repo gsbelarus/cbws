@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contacts = () => {
 	return (
-		<div className="contacts">
+		<div id="contacts">
 			<div className="bot-content">
 				<div className="bot-header">Наши контакты</div>
 				<label className="column column-header">

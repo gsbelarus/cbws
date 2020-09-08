@@ -15,6 +15,7 @@ import {
 } from "./consts";
 import { LangSelector } from "./components/LangSelector";
 import { OrderForm } from "./components/OrderForm";
+import { Clients } from "./components/Clients";
 
 export default function App() {
 	const [lng, setLanguage] = useState(languages[0]);
@@ -55,6 +56,7 @@ export default function App() {
 				<Why />
 				<Where />
 				<Tasks />
+        <Clients />
 			</div>
 			{viewOrderForm && (
 				<OrderForm selectedLang={lng} onClose={() => setViewOrderForm(false)} />
@@ -86,21 +88,3 @@ export default function App() {
 		</div>
 	);
 }
-
-export const divStyle = {
-	width: "341.333px",
-	marginRight: "0px",
-};
-
-export const divStyle2 = {
-	width: "1024px",
-	marginRight: "0px",
-};
-
-export const styleDisplayNone = {
-	display: "none",
-};
-
-export const styleDisplayBlock = {
-	display: "block",
-};
