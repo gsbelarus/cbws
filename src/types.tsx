@@ -7,7 +7,7 @@ export interface ListItem {
 export type ListItems = ListItem[];
 
 export interface IRef {
-  id: number,
+  name?: string;
   href: string;
   className: string;
 }

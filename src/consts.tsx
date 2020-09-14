@@ -34,17 +34,21 @@ export function getLName(
 }
 
 export const socials: ListRefs = [
-	{ id: 1, href: "http://gsbelarus.com/", className: "icon telegram" },
-	{ id: 2, href: "http://gsbelarus.com/", className: "icon viber" },
-	{ id: 3, href: "http://gsbelarus.com/", className: "icon youtube" },
-	{ id: 4, href: "http://gsbelarus.com/", className: "icon fb" }
+	{ href: "http://gsbelarus.com/", className: "icon telegram" },
+	{ href: "http://gsbelarus.com/", className: "icon viber" },
+	{ href: "http://gsbelarus.com/", className: "icon youtube" },
+	{ href: "http://gsbelarus.com/", className: "icon fb" }
 ];
 
 export const clients: ListRefs = [
-	{ id: 1, href: "http://gsbelarus.com/", className: "client client1" },
-	{ id: 2, href: "http://gsbelarus.com/", className: "client client2" },
-	{ id: 3, href: "http://gsbelarus.com/", className: "client client3" },
-	{ id: 4, href: "http://gsbelarus.com/", className: "client client4" }
+	{ name: "", href: "http://gsbelarus.com/", className: "client client1" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client2" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client3" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client4" },
+  { name: "", href: "http://gsbelarus.com/", className: "client client1" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client2" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client3" },
+	{ name: "", href: "http://gsbelarus.com/", className: "client client4" }
 ];
 
 export const mainMenu: ListItems = [

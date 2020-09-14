@@ -72,9 +72,9 @@ export default function App() {
 					<div className="footer-socials">
 						<label>{getLocString(stringResources.socials, lng)}</label>
 						<div className="socials">
-							{socials.map((soc) => (
+							{socials.map((soc, xid) => (
 								<a
-									key={soc.id}
+									key={xid}
 									href={soc.href}
 									className={soc.className}
 									target="_blank"

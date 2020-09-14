@@ -268,24 +268,25 @@ span:hover {
 	display: inline-block;
 }
 
-.client:first-child {
+/* .client:first-child {
 	margin-left: 0;
-}
+} */
 
 .client {
-	margin-left: 0;
-	margin-right: 8px;
-	margin-bottom: 8px;
+  margin: 0 10px;
 	background-repeat: no-repeat;
-	background-size: 100px;
-	width: 102px;
-	height: 102px;
-}
-
-.bot-clients ul li {
-	opacity: 0.8;
+	background-size: contain;
+  background-position: center;
+	width: 150px;
+	height: 150px;
+  	opacity: 0.8;
 	transition: 0.25s;
 	filter: grayscale(100%);
+}
+
+.bot-clients {
+	justify-content: space-between;
+  padding: 30px;
 }
 
 .client.client1 {
@@ -297,7 +298,15 @@ span:hover {
 }
 
 .client.client3 {
-	background-image: url(img/clients/ganna.svg);
+	background-image: url(img/clients/slonmk.svg);
+}
+
+.client.client3 {
+	background-image: url(img/clients/mmk.jpg);
+}
+
+.client.client4 {
+	background-image: url(img/clients/gmk.png);
 }
 
 footer {
