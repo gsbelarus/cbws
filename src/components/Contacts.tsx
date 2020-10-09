@@ -17,19 +17,19 @@ export const Contacts = () => {
 							<div className="column-item_text">
 								<ul>
 									<li>
-										<i className="icon icm-icon-map-marker"> </i>
+										<i className="fas fa-map-marker-alt"></i>
 										<span>220073, Минск, ул. Скрыганова 6, офис 2-204</span>
 									</li>
 									<li>
-										<i className="icon icm-icon-call"> </i>
-										<span>+375-17-2562782, 2562783</span>
+										<i className="fas fa-phone-square"></i>
+										<span>+375-17-2562782, +375-17-2562783</span>
 									</li>
 									<li>
-										<i className="icon icm-icon-print"> </i>
-										<span>+375-17-2561759</span>
+									  <i className="fas fa-envelope"></i>
+										<span>gdmnbot@gmail.com</span>
 									</li>
 									<li>
-										<i className="icon icm-icon-facebook2"> </i>
+										<i className="fab fa-facebook-square"></i>
 										<span>
 											<a href="https://www.facebook.com/gsbelarus">Facebook</a>
 										</span>

@@ -17,6 +17,15 @@ import { LangSelector } from "./components/LangSelector";
 import { OrderForm } from "./components/OrderForm";
 import { Clients } from "./components/Clients";
 
+const sendOrder = () => {
+	//emailjs.sendForm('user_Rn4LE1zUdsp5DZJkmLUUZ', 'template_YVRvH33n', '#contact-form', 'user_Rn4LE1zUdsp5DZJkmLUUZ')
+	// .then((response) => {
+	//   this.setState({sendText: 'Сообщение отправлено!'})
+	// }, (err) => {
+	//   this.setState({sendText: 'Сообщение не было отправлено!' + err})
+	// });
+};
+
 export default function App() {
 	const [lng, setLanguage] = useState(languages[0]);
 	const [viewOrderForm, setViewOrderForm] = useState(false);
@@ -56,10 +65,17 @@ export default function App() {
 				<Why />
 				<Where />
 				<Tasks />
-        <Clients />
+				<Clients />
 			</div>
 			{viewOrderForm && (
-				<OrderForm selectedLang={lng} onClose={() => setViewOrderForm(false)} />
+				<OrderForm
+					selectedLang={lng}
+					onClose={() => setViewOrderForm(false)}
+					onSend={() => {
+						sendOrder();
+						setViewOrderForm(false);
+					}}
+				/>
 			)}
 			<Contacts />
 			<footer>

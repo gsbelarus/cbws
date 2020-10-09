@@ -355,6 +355,8 @@ footer {
 	transform: rotate(-45deg);
 }
 
+
+
 .popup_wrp.show {
 	display: block;
 	overflow: auto;
@@ -528,4 +530,8 @@ input[type="email"]:focus {
 
 .order {
 	padding-top: 250px;
+}
+
+.column-item_text ul li i {
+  padding-right: 8px;
 }
